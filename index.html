@@ -203,8 +203,8 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear"/></li>
+											<li><button id="sendButton"> <a href="https://www.facebook.com/profile.php?id=100092234085857">Send Message</a></button></li>
+											<li><input type="reset" value="Clear"/></li>
 									</ul>
 								</form>
 							</section>
@@ -264,6 +264,12 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script type="module" src="assets/js/main.js"></script>
+			<script>
+				// JavaScript to handle button click and redirect
+				document.getElementById("sendButton").addEventListener("click", function() {
+				  window.location.href = "https://www.facebook.com/profile.php?id=100092234085857";
+				});
+			  </script>
 
 	</body>
 </html>

@@ -4346,6 +4346,10 @@ input, select, textarea {
 			border-radius: 20px;
 		}
 
+		#sendButton {
+			background-color: white;
+			color: black;
+		}
 
 
 		
