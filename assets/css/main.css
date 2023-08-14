@@ -152,13 +152,17 @@ input, select, textarea {
 
 		}
 
-		/*styling for phone diplsays */
 		@media (max-width: 768px) {
-			body {
+			html, body {
 				font-size: 16px;
 				padding: 10px;
 				font-size: 20px;
+				width: 408px;
 			  }
+			  
+			/* button, a, .image, #helveteLogo, #Quest_of_the_fallen_Image, #cyborg_runner_Image, #serona_image {
+				size: 20px;
+			} */
 		}
 		
 		/*styling for tablet displays */
@@ -4362,5 +4366,3 @@ input, select, textarea {
 			background-color: white;
 			color: black;
 		}
-	
-		
