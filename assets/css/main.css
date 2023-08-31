@@ -4366,3 +4366,11 @@ input, select, textarea {
 			background-color: white;
 			color: black;
 		}
+
+		#startVideo {
+			margin-top: 150px;
+		}
+
+		#who_we_are {
+			font-size: xx-large;
+		}
