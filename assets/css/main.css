@@ -2367,11 +2367,14 @@ input, select, textarea {
 			}
 
 /* Icons */
-
+.icons {
+	margin: 20px;
+}
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+
 	}
 
 		ul.icons li {
@@ -3378,7 +3381,7 @@ input, select, textarea {
 		cursor: default;
 		height: 80vh;
 		margin-bottom: -3.25em;
-		max-height: 32em;
+		max-height: 38em;
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
@@ -3945,13 +3948,14 @@ input, select, textarea {
 			border-radius: 22px;
 		}
 
-		#one {
-			background: linear-gradient(to bottom, rgba(17, 38, 67, 1), rgb(62, 99, 122), rgb(63, 69, 72), rgb(56, 58, 60));
-		}
+		/* #one {
+			/* background: linear-gradient(to bottom, rgba(17, 38, 67, 1), rgb(62, 99, 122), rgb(63, 69, 72), rgb(56, 58, 60)); 
+			background: linear-gradient(to bottom, #001f3f, #3498db);
+		} */
 
-		#contact {
+		#contact, footer {
 			/* background: linear-gradient(to top, #040c17, #1c2940, #354b6e, #4d6c96, #6686bd); */
-			background-image: url(images/lastBackground.jpeg);
+			background-image: url(images/threeBackground.jpeg);
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
 		}
@@ -3977,8 +3981,30 @@ input, select, textarea {
 			background: linear-gradient(to bottom, #583c0c, #7d6016, #a3871e, #cfa92a);
 		} 
 
-		#HermesX_Background, #serona_background, #cyborg_runner_Background, #Quest_of_the_fallen_background {
-			background: linear-gradient(to left, #303951, #281c3b, #281c3b, #303951);
+		/* #HermesX_Background, #serona_background, #cyborg_runner_Background, #Quest_of_the_fallen_background {
+			/* background: linear-gradient(to left, #303951, #281c3b, #281c3b, #303951); 
+			background: linear-gradient(to bottom, #001f3f, #3498db);
+
+		} */
+
+		#one {
+			background: linear-gradient(to bottom, #001f3f, #072f5f 20%);
+		}
+
+		#cyborg_runner_Background {
+			background: linear-gradient(to bottom, #072f5f 20%, #0a4b78 40%);
+		}
+
+		#HermesX_Background {
+			background: linear-gradient(to bottom, #0a4b78 40%, #1a759f 60%);
+		}
+
+		#Quest_of_the_fallen_background {
+			background: linear-gradient(to bottom, #1a759f 60%, #3498db 80%);
+		}
+
+		#serona_background {
+			background: linear-gradient(to bottom, #3498db 80%, #add8e6);
 		}
 
 		/* #HermesX_Background, #serona_background {
@@ -4335,9 +4361,9 @@ input, select, textarea {
 			background-size: cover;
 		  }
 
-		  #footer {
+		  /* #footer {
 			background: linear-gradient(to bottom, #0f214c, #3d2b5a, #562c5a, #7e3d70);
-		}
+		} */
 		  
 		form {
 			background-color: rgba(0, 0, 0, .6);
@@ -4373,4 +4399,9 @@ input, select, textarea {
 
 		#who_we_are {
 			font-size: xx-large;
+		}
+
+		.copyright {
+			list-style: none;
+
 		}
